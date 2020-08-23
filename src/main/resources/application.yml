@@ -1,0 +1,15 @@
+server:
+  #端口号
+  port: 9000
+  application:
+      name: demo-csdn
+
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8888
+
+logging:
+  config: classpath:logback-spring.xml
